@@ -16,7 +16,7 @@ import ScrollTop from "@/src/layouts/ScrollTop";
 import { axo } from "@/src/utils";
 
 import { Fragment, useEffect } from "react";
-import Colloborators from "@/src/components/colloborators";
+import Colloborators from "@/src/components/Colloborators";
 
 const Index = () => {
   useEffect(() => {
