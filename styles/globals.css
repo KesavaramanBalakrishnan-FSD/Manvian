@@ -1,0 +1,162 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
+  .container .menus.d-none {
+    display: none;
+    margin-top: 20px;
+  }
+  .container .menus.d-block {
+    display: block;
+    margin-top: 20px;
+  }
+}
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.cta-position {
+  position: relative;
+}
+.cta-button {
+  position: absolute;
+  border: 1px solid black;
+  top: -1px;
+  right: 0;
+}
+
+.rowplus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.about-sub-title {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.about-heading {
+  font-size: 2.5rem;
+}
+
+.content {
+  text-align: justify;
+}
+
+.content-size {
+  width: 600px;
+}
+
+.area-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.position {
+  position: relative;
+  top: 40px;
+}
+
+.colob {
+  width: 100%;
+  height: 200px;
+  background-color: #008ba8;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.colob img {
+  width: 100px;
+}
+
+.footer {
+  background-color: #008ba8;
+}
+
+.aligning {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-p {
+  text-align: justify;
+}
+
+.typing-font-size {
+  font-size: 3rem;
+}
+
+.div-size {
+  width: 900px;
+  height: 100vh;
+}
+
+button {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+}
+
+.position-fixed {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  position: absolute;
+  bottom: 10px;
+}
+
+.type-position {
+  position: absolute;
+  top: 150px;
+}
+
+.bg {
+  background-color: red;
+}
+/* .empty_notice {
+  color: #d6434a;
+  margin-top: 5px;
+}
+.returnmessage {
+  color: green;
+  margin-top: 5px;
+} */
